@@ -7,11 +7,20 @@ let listaProductos = [
   'cebollin'
 ]
 
+
+let listaProductos2 = [
+  'manzana verde',
+  'cebolla',
+  'cebollin'
+]
+
 function App() {
   return (
     <>
     <h1>Lista de compras</h1>
     <ListaProductos listaC = {listaProductos}/>
+
+    <ListaProductos listaC = {listaProductos2}/>
     </>
   
   );
